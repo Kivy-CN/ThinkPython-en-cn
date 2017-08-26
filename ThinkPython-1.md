@@ -7,15 +7,15 @@ Tag: 双语,Python,ThinkPython
 
 The goal of this book is to teach you to think like a computer scientist. This way of thinking combines some of the best features of mathematics, engineering, and natural science. Like mathematicians, computer scientists use formal languages to denote ideas \(specifically computations\). Like engineers, they design things, assembling components into systems and evaluating tradeoffs among alternatives. Like scientists, they observe the behavior of complex systems, form hypotheses, and test predictions.
 
-> 本书的目的是叫你学会像计算机科学家一样来思考。这种思考方式汇聚了数学、工程和自然科学的精华。计算机科学家像数学家一样，使用规范的语言来阐述思想（尤其是一些计算）；像工程师一样设计、组装系统，并且在多重选择中寻找最优解；像自然科学家一样观察复杂系统的行为模式，建立猜想，测试预估的结果。
+> 本书的目的是教你学会像计算机科学家一样来思考。这种思考方式汇聚了数学、工程和自然科学的精华。计算机科学家像数学家一样，使用规范的语言来阐述思想（尤其是一些计算）；像工程师一样进行设计、将模块组装成系统，并且在多重选择中权衡利弊以找到最优解；像自然科学家一样观察复杂系统的行为模式，建立猜想，测试预估的结果。
 
 The single most important skill for a computer scientist is problem solving. Problem solving means the ability to formulate problems, think creatively about solutions, and express a solution clearly and accurately. As it turns out, the process of learning to program is an excellent opportunity to practice problem-solving skills. That’s why this chapter is called, “The way of the program”.
 
-> 计算机科学家唯一最重要的技能就是『解决问题』。解决问题意味着要有能力把问题进行方程化，创造性地考虑解决思路，并且清晰又精确地表达出解决方案。而学习编程的过程，正是一个培养这种解决问题能力的绝佳机会。本章的标题是『编程之路』，原因就在此。
+> 计算机科学家唯一最重要的技能就是『解决问题』。解决问题意味着要有能力去构建问题，创造性地考虑解决思路，并且清晰又精确地表达出解决方案。而学习编程的过程，正是一个培养这种解决问题能力的绝佳机会。本章的标题是『编程之路』，原因就在此。
 
 On one level, you will be learning to program, a useful skill by itself. On another level, you will use programming as a means to an end. As we go along, that end will become clearer.
 
-> 在一定层面上，大家将通过编程本身来学习编程这一重要的技巧。在另外一些层面上，大家也将把编程作为实现一种目的的途径。这一目的会随着我们逐渐学习而越发清楚。
+> 在某个层面上，你将会学习编程——它本身就是一项有用的技能。在另一些层面上，你可能会把编程作为实现一种目的的手段。这一目的会随着我们逐渐学习而越发清楚。
 >
 > ## 1.1  What is a program? 程序是什么？
 >
@@ -74,8 +74,8 @@ The Python interpreter is a program that reads and executes Python code. Dependi
 
 ```python
 Python 3.4.0 (default, Jun 19 2015, 14:20:21)  
-[GCC 4.8.2] on linux 
-Type "help", "copyright", "credits" or "license" for more information. 
+[GCC 4.8.2] on linux
+Type "help", "copyright", "credits" or "license" for more information.
 >>>  
 ```
 
@@ -88,7 +88,7 @@ The last line is a prompt that indicates that the interpreter is ready for you t
 > 最后一行那个是提示符，告诉你解释器已经就绪了，你可以输入代码了。如果你输入一行代码然后回车键，解释器就会显示结果了，如下所示：
 
 ```python
->>> 1 + 1 
+>>> 1 + 1
 2
 ```
 
@@ -103,7 +103,7 @@ Traditionally, the first program you write in a new language is called “Hello,
 > 传统意义上，大家学一门新编程语言要写的第一个程序都被叫做『Hello，World！』，因为这第一个程序就用来显示这个词组『Hello，World！』。在Python中，是这样实现的：
 
 ```python
->>> print('Hello, World!') 
+>>> print('Hello, World!')
 ```
 
 This is an example of a print statement, although it doesn’t’t actually print anything on paper. It displays a result on the screen. In this case, the result is the words `Hello, World!`
@@ -123,7 +123,7 @@ In Python 2, the print statement is slightly different; it is not a function, so
 > 在Python2中，打印的语句有一点点不一样：print不是一个函数，所以就不用有括号了。
 
 ```python
->>> print 'Hello, World!' 
+>>> print 'Hello, World!'
 ```
 
 This distinction will make more sense soon, but that’s enough to get started.
@@ -141,12 +141,12 @@ The operators +, -, and \* perform addition, subtraction, and multiplication, as
 > 运算符+，-和\*表示加法、减法和乘法，如下所示：
 
 ```python
->>> 40 + 2 
-42 
->>> 43 - 1 
-42 
->>> 6 * 7 
-42 
+>>> 40 + 2
+42
+>>> 43 - 1
+42
+>>> 6 * 7
+42
 ```
 
 The operator / performs division:
@@ -154,8 +154,8 @@ The operator / performs division:
 > 运算符右斜杠/意味着除法：
 
 ```python
->>> 84 / 2 
-42.0 
+>>> 84 / 2
+42.0
 ```
 
 You might wonder why the result is 42.0 instead of 42. I’ll explain in the next section.
@@ -167,8 +167,8 @@ Finally, the operator \*\* performs exponentiation; that is, it raises a number 
 > 最后，再说个运算符\*\*，它表示乘方，就是前一个数为底数，后一个数为指数的次幂运算：
 
 ```python
->>> 6**2 + 6 
-42 
+>>> 6**2 + 6
+42
 ```
 
 In some other languages, `^` is used for exponentiation, but in Python it is a bitwise operator called XOR. If you are not familiar with bitwise operators, the result will surprise you:
@@ -176,8 +176,8 @@ In some other languages, `^` is used for exponentiation, but in Python it is a b
 > 在其他的一些编程语言中， `^`这个符号是乘方的意思，但在Python中这是一个位运算操作符叫做『异或』。要是你不熟悉位运算操作符，结果一定让你很惊讶：
 
 ```python
->>> 6 ^ 2 
-4 
+>>> 6 ^ 2
+4
 ```
 
 I won’t cover bitwise operators in this book, but you can read about them at [Wiki](http://wiki.python.org/moin/BitwiseOperators).  
@@ -198,12 +198,12 @@ If you are not sure what type a value has, the interpreter can tell you:
 > 如果你不确定一个值是什么类型呢，你可以让解释器来告诉你：
 
 ```python
->>> type(2) 
-<class 'int'> 
->>> type(42.0) 
-<class 'float'> 
->>> type('Hello, World!') 
-<class 'str'> 
+>>> type(2)
+<class 'int'>
+>>> type(42.0)
+<class 'float'>
+>>> type('Hello, World!')
+<class 'str'>
 ```
 
 In these results, the word “class” is used in the sense of a category; a type is a category of values.
@@ -219,10 +219,10 @@ What about values like '2' and '42.0'? They look like numbers, but they are in q
 > 那'2' 和 '42.0'这种是啥呢？他们看着像是数字，但带了单引号了。
 
 ```python
->>> type('2') 
-<class 'str'> 
->>> type('42.0') 
-<class 'str'> 
+>>> type('2')
+<class 'str'>
+>>> type('42.0')
+<class 'str'>
 ```
 
 They’re strings.
@@ -234,8 +234,8 @@ When you type a large integer, you might be tempted to use commas between groups
 > 咱们现在输入一个大的整数，在中间用逗号分隔试试看，比如1，000，000，并不是Python中合乎语法的整形，但也被接受了：
 
 ```python
->>> 1,000,000 
-(1, 0, 0) 
+>>> 1,000,000
+(1, 0, 0)
 ```
 
 That’s not what we expected at all! Python interprets 1,000,000 as a comma-separated sequence of integers. We’ll learn more about this kind of sequence later.
@@ -477,6 +477,3 @@ This kind of experiment helps you remember what you read; it also helps when you
 5. What happens if you have two values with no operator between them?
 
    > 两个值中间没有运算符会怎么样？
-
-
-
