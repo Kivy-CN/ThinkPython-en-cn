@@ -7,7 +7,7 @@ Tag: 双语,Python,ThinkPython
 
 The goal of this book is to teach you to think like a computer scientist. This way of thinking combines some of the best features of mathematics, engineering, and natural science. Like mathematicians, computer scientists use formal languages to denote ideas \(specifically computations\). Like engineers, they design things, assembling components into systems and evaluating tradeoffs among alternatives. Like scientists, they observe the behavior of complex systems, form hypotheses, and test predictions.
 
-> 本书的目的是教你学会像计算机科学家一样来思考。这种思考方式汇聚了数学、工程和自然科学的精华。计算机科学家像数学家一样，使用规范的语言来阐述思想（尤其是一些计算）；像工程师一样进行设计、将模块组装成系统，并且在多重选择中权衡利弊以找到最优解；像自然科学家一样观察复杂系统的行为模式，建立猜想，测试预估的结果。
+> 本书的目的是教你学会像计算机科学家一样来思考。这种思考方式汇聚了数学、工程和自然科学的精华。计算机科学家像数学家一样，使用形式语言来阐述思想（尤其是一些计算）；像工程师一样进行设计、将模块组装成系统，并且在多重选择中权衡利弊以找到最优解；像自然科学家一样观察复杂系统的行为模式，建立猜想，测试预估的结果。
 
 The single most important skill for a computer scientist is problem solving. Problem solving means the ability to formulate problems, think creatively about solutions, and express a solution clearly and accurately. As it turns out, the process of learning to program is an excellent opportunity to practice problem-solving skills. That’s why this chapter is called, “The way of the program”.
 
